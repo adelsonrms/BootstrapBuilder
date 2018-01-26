@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BootstrapBuilder.Components
 {
-    class BSToggle
+   public interface IBSElement
     {
-    }
+        string GetHTML();
+        void AddElement(IBSElement element);
+    }   
 }
