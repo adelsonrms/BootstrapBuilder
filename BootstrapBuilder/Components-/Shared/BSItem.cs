@@ -27,8 +27,7 @@ namespace BootstrapBuilder.Components
         public string LinkRef { get; set; }
         public bool Active { get; set; }
         public eButtonAction Action { get; set; }
-        public void AddElement(IBSElement element) {}
-
+        public void AddElement(IBSElement element) => throw new NotImplementedException();
         public string GetHTML() {
             if (html == null)
             {

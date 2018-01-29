@@ -44,6 +44,6 @@ namespace BootstrapBuilder.Components
             return html.ToString();
         }
 
-        public void AddElement(IBSElement element) { }
+        public void AddElement(IBSElement element) => throw new System.NotImplementedException();
     }
 }

@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace BootstrapBuilder.Components
 {
@@ -96,12 +99,7 @@ namespace BootstrapBuilder.Components
 
         public BSGenericElement AddRow(string content)
         {
-            return AddRow(content, "");
-        }
-
-        public BSGenericElement AddRow()
-        {
-            return AddRow("");
+            return AddRow(content);
         }
 
         public void AddDropdownMenu(BSDropDown Dropdown)

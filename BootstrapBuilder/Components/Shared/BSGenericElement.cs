@@ -64,7 +64,7 @@ namespace BootstrapBuilder.Components
             };  
             return html.ToString();
         }
-        public void AddElement(IBSElement element) => throw new NotImplementedException();
+        public void AddElement(IBSElement element) {}
 
         public string GetHTML() {
             return getDefElement();

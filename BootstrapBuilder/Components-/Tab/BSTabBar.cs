@@ -64,6 +64,6 @@ namespace BootstrapBuilder.Components.Tab
             return htmlBuilder.ToString();
             ;
         }
-        public void AddElement(IBSElement element) {}
+        public void AddElement(IBSElement element) => throw new NotImplementedException();
     }
 }

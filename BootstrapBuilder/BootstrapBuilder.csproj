@@ -36,6 +36,10 @@
   <ItemGroup>
     <Compile Include="Components\BSContainer.cs" />
     <Compile Include="Components\Dropdown\BSDropDown.cs" />
+    <Compile Include="Components\Form\BSForm.cs" />
+    <Compile Include="Components\Form\BSFormControl.cs" />
+    <Compile Include="Components\Input\BSInput.cs" />
+    <Compile Include="Components\Input\BSTooltip.cs" />
     <Compile Include="Components\Nav\BSNavBar.cs" />
     <Compile Include="Components\Panel\BSPanel.cs" />
     <Compile Include="Components\Panel\BSPanelGroup.cs" />
@@ -48,7 +52,7 @@
     </Compile>
     <Compile Include="Components\Tab\BSTab.cs" />
     <Compile Include="Components\Tab\BSTabBar.cs" />
-    <Compile Include="Components\Button\BSButton.cs" />
+    <Compile Include="Components\Form\BSButton.cs" />
     <Compile Include="D:\Data\Dev\Web\Bootstrap\IBSElement.cs">
       <Link>Components\Shared\IBSElement.cs</Link>
     </Compile>
@@ -59,7 +63,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DemoTab.html" />
+    <Content Include="PaginaDemo\DemoTab.html" />
+    <Content Include="PaginaDemo\Switch_CheckBox\Switch_Check.css" />
+    <Content Include="PaginaDemo\Switch_CheckBox\Switch_Check.html" />
+    <Content Include="PaginaDemo\Switch_CheckBox\Switch_Cores.css" />
+    <Content Include="PaginaDemo\Switch_CheckBox\Switch_Cores.html" />
+    <Content Include="PaginaDemo\Switch_CheckBox\Switch.css" />
+    <Content Include="PaginaDemo\Switch_CheckBox\Switch.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

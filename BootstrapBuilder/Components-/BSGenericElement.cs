@@ -7,7 +7,7 @@ namespace BootstrapBuilder.Components
     public   class BSGenericElement : IBSElement
     {
         string _content;
-        private string _id, _tag;
+        private string _id, _tag, _ClassName;
         StringBuilder html;
 
         public string Content { get { return this._content; } set { _content = value; } }

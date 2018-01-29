@@ -76,7 +76,7 @@ namespace BootstrapBuilder.Components.Tab
         {
             html = new StringBuilder(menuDrop.GetHTML());
         }
-        public void AddElement(IBSElement element) {}
+        public void AddElement(IBSElement element) => throw new NotImplementedException();
 
         public string HtmlTabPane
         {
